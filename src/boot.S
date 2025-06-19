@@ -1,7 +1,5 @@
-
 .section ".text.boot"
 .global _start
-
 _start:
     mrs     x1, mpidr_el1
     and     x1, x1, #3
